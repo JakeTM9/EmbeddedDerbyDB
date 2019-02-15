@@ -1,7 +1,7 @@
 package io.javabrains.springbootstarter.topic;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,11 +13,11 @@ public class TopicService {
 	@Autowired
 	private TopicRepository topicRepository;
 	
-	private List<Topic> topics = new ArrayList<>(Arrays.asList(
+	/* private List<Topic> topics = new ArrayList<>(Arrays.asList(
 			new Topic("spring", "Spring Framework", "Spring Framework Description"),
 			new Topic("java", "Core Java", "Core Java Description"),
 			new Topic("javascript", "JavaScript", "JavaScript Description")
-			));
+			)); */
 	
 	
 	
